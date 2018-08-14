@@ -1,10 +1,21 @@
 ![pepiposts-logo](https://pepipost.com/assets/img/pepipost-footLogo.png) 
 
+## About Pepipost 
+
 Pepipost is a cloud-based SMTP relay service that delivers highly personalised transactional emails to the inbox within seconds.
 
-## How to Build 
+## How to Build SDK 
 
-The generated code has dependencies over external libraries like UniRest. These dependencies are defined in the ```composer.json``` file that comes with the SDK. 
+The Code has Dependencies over External Libraries 
+for eg. UniRest
+Dependencies are defined in the File ```composer.json``` that Comes with the SDK.
+ 
+## Resolving Dependencies
+
+we use the Composer package manager in order to resolve dependencies.
+PHP >= 5.3.2 should be installed in your System 
+
+
 To resolve these dependencies, we use the Composer package manager which requires PHP greater than 5.3.2 installed in your system. 
 Visit [https://getcomposer.org/download/](https://getcomposer.org/download/) to download the installer file for Composer and run it in your system. 
 Open command prompt and type ```composer --version```. This should display the current version of the Composer installed if the installation was successful.
