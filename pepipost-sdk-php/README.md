@@ -1,11 +1,8 @@
-![pepiposts-logo](https://pepipost.com/assets/img/pepipost-footLogo.png)
+![pepiposts-logo](https://pepipost.com/assets/img/pepipost-footLogo.png) 
 
-# Getting started
+Pepipost is a cloud-based SMTP relay service that delivers highly personalised transactional emails to the inbox within seconds.
 
-Pepipost is a cloud-based SMTP relay service that delivers highly personalised transactional emails to the inbox within seconds of your customer’s transaction
-Thanks to APIMATIC.
-
-## How to Build
+## How to Build 
 
 The generated code has dependencies over external libraries like UniRest. These dependencies are defined in the ```composer.json``` file that comes with the SDK. 
 To resolve these dependencies, we use the Composer package manager which requires PHP greater than 5.3.2 installed in your system. 
