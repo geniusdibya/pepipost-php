@@ -1,3 +1,5 @@
+[https://pepipost.com/assets/img/pepipost-footLogo.png]
+
 # Getting started
 
 Pepipost is a cloud-based SMTP relay service that delivers highly personalised transactional emails to the inbox within seconds of your customer’s transaction
