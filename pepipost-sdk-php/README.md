@@ -1,4 +1,4 @@
-[https://pepipost.com/assets/img/pepipost-footLogo.png]
+![pepiposts-logo](https://pepipost.com/assets/img/pepipost-footLogo.png)
 
 # Getting started
 
