@@ -1,9 +1,9 @@
-## SDK on windows without IDE
+# SDK on windows without IDE
 
 The Mentioned Steps below will help you in integrating Pepipost SDK with Windows Server doesn't have any IDE
 Before starting we would request you to whitelist our domain ```api.pepipost.com``` with ```port 443/80```  
 
-# Installation Step 
+### Installation Step 
 
 This code has dependencies over external libraries like UniRest.
 Dependencies are listed in ```composer.json``` file that comes with SDK.
