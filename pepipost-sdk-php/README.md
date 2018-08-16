@@ -1,8 +1,9 @@
-![pepiposts-logo](https://pepipost.com/assets/img/pepipost-footLogo.png) 
+![pepiposts-logo](https://pepipost.com/assets/img/pink-logo.png) 
 
-## About Pepipost 
+## Official PHP Client for ![Pepipost](https://pepipost.com)
 
-Pepipost is a cloud-based SMTP relay service that delivers highly personalised transactional emails to the inbox within seconds.
+ This SDK contains methods for easily interacting with the Pepipost Email Sending API
+ which will help you in integrating our Service within Seconds. 
 
 ## How to Build SDK 
 
