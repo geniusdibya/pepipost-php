@@ -18,34 +18,46 @@ Inorder to make it Smooth we have Separated installation process with respective
 ## Download Basic Requirements for installation
 
 **1. [PHP >=5.3.2](http://php.net/manual/en/install.php)**
+
 **2. [Composer](https://getcomposer.org/download/)**
+
 **3. CURL**
 
 ## Building SDK 
 
  1. Open Command prompt/ terminal. 
+ 
  2. Change Directory to any new directory (Make directory test-- recommended).
+ 
  3. Download or Glone the Pepipost Repository to the new directory.
- 4. Check php version using ```php -v```
- 5. Check Composer version ```composer --version```
+ 
+ 4. Check php version using **```php -v```**
+ 
+ 5. Check Composer version **```composer --version```**
+ 
  6. Navigate to your directory where SDK is Downloaded/clone/extracted (using cd path\to\directory)
- 7. Type ```composer install``` (this will install all the requirement needed to Run SDK -- vendor directory will be listed )
- 8. Make file in same directory ```test.php```
+ 
+ 7. Type **```composer install```** (this will install all the requirement needed to Run SDK -- vendor directory will be listed )
+ 
+ 8. Make file in same directory **```test.php```**
+ 
  9. Copy and Paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file or [sampleExample] below of the Readme.md file in test.php
+ 
  10. Grab your apiKey and SendingDomain from panel 
   
-  **apikey** will be available from **login to pepipost -> settings -> integration**
+  **```apikey```** will be available from **```login to pepipost -> settings -> integration```**
   
-  **Sending Domain** will be available from **login to pepiost -> settings -> Sending Domains **
+  **```Sending Domain```** will be available from **```login to pepiost -> settings -> Sending Domains ```**
+
 ```
   *note :: only Active Domains are allowed * 
 ```
 
  11. Make neccessary Changes in Script (apikey and Sending Domain -- mandatory changes).
  
- Change your ```$apiKey = 'api-XX-key-XX-here'``` to ```$apiKey = 'api-key-from-panel';```
+ Change your **```$apiKey = 'api-XX-key-XX-here'```** to **```$apiKey = 'api-key-from-panel';```**
  
- Similarly Change your Sending Domain from ```$body->from->fromEmail = 'admin@myfirsttest.com';``` to ```$body->from->fromEmail = 'admin@your-active-domain-from-panel';```
+ Similarly Change your Sending Domain from **```$body->from->fromEmail = 'admin@myfirsttest.com';```** to **```$body->from->fromEmail = 'admin@your-active-domain-from-panel';```**
 
 
 ## Initialization
