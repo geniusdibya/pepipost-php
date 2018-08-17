@@ -39,20 +39,49 @@ We are trying to help you with the simpliest way of installation we can let us k
   
   ![installtion6](http://app1.falconide.com/integration_imgs/windows_without_IDE/7.png)
   
-3.  Open CMD. (command prompt) 
+3.  Open CMD &  Check Composer version using ```Composer --version``` (command prompt) 
 
  ![cmd](http://app1.falconide.com/integration_imgs/windows_without_IDE/8.png) 
  
-4.  Check Composer version on CMD ```Composer --version``` 
 
- ![version]()
-
-5.  Download zip from ![Pepipost Repository](https://github.com/pepipost/pepipost-sdk-php/archive/master.zip)
+4.  Download zip or clone git repo from ![Pepipost Repository](https://github.com/pepipost/pepipost-sdk-php/archive/master.zip)
 
 ![dwnimg](http://app1.falconide.com/integration_imgs/windows_without_IDE/9.png)
 
-6.  if you have git installed please clone the ![same here](https://github.com/pepipost/pepipost-sdk-php.git)
+6.  unzip the downloaded zip to Fresh Directory at any location of your choice. (we will assume Dev has Directory at location Desktop)
 
-7.  unzip the downloaded zip to Fresh Directory at any location of your choice. (we will assume Dev has Directory at location Desktop)
-8.  
+![extract](http://app1.falconide.com/integration_imgs/windows_without_IDE/10.png)
 
+
+8. copy the path from address bar of window where you have unzipped the repository
+
+![unzipp](http://app1.falconide.com/integration_imgs/windows_without_IDE/11.png)
+
+9. Paste in CMD with ```cd copied\PATH\to\Directory``` 
+
+![path](http://app1.falconide.com/integration_imgs/windows_without_IDE/12.png)
+
+10. Once you had copied and successfully migrated to Unzipped Path 
+    
+   install composer using ```composer install``` these will install all the requirement for Building SDK
+
+ ![composer](http://app1.falconide.com/integration_imgs/windows_without_IDE/14.png)
+
+11. Download ![CURL](https://curl.haxx.se/docs/caextract.html) for windows
+
+    move **.pem** from downloads directory to the unzipped SDK folder.
+  
+  ![downloadcurl](http://app1.falconide.com/integration_imgs/windows_without_IDE/15.png)
+  
+ 12. As we have downloaded the Curl we need to add in our php.ini file 
+ 
+     Open xampp Control panel -> config(php.ini) file shown below
+     
+  ![xampp](http://app1.falconide.com/integration_imgs/windows_without_IDE/16.png)
+  
+ 13. Add line ```**curl.cainfo = "PATH_TO/cacert.pem"**``` to php.ini file
+ 
+  ![PEm file](http://app1.falconide.com/integration_imgs/windows_without_IDE/18.png)
+  
+ 14. 
+  
