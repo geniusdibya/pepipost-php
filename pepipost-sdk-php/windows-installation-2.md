@@ -1,4 +1,4 @@
-# SDK on windows with IDE
+# Bulding SDK on windows/linux with IDE
 
 Installing SDK on windows Server with Integrated Development Enviroment(IDE)
 
@@ -76,6 +76,12 @@ Once the interpreter is selected, click ```OK```
 
 ![Run Test Project - Step 4](https://apidocs.io/illustration/php?step=setInterpreter2&workspaceFolder=Pepipost%20API-PHP)
 
+copy/Paste sample Example from simpleUsage.md to the ![testSDK.php](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file and Save.
+
 To run your project, right click on your PHP file inside your Test project and click on ```Run```
 
 ![Run Test Project - Step 5](https://apidocs.io/illustration/php?step=runProject&workspaceFolder=Pepipost%20API-PHP)
+
+
+
+
