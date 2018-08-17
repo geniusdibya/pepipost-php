@@ -61,7 +61,7 @@ We are trying to help you with the simpliest way of installation we can let us k
 
 ![path](http://app1.falconide.com/integration_imgs/windows_without_IDE/12.png)
 
-10. Once you had copied and successfully migrated to Unzipped Path 
+10. Once you had copied & successfully migrated to Unzipped Path 
     
    install composer using ```composer install``` these will install all the requirement for Building SDK
 
