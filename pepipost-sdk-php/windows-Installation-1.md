@@ -10,9 +10,9 @@ Dependencies are listed in ```composer.json``` file that comes with SDK.
 
 We are trying to help you with the simpliest way of installation we can let us know if problem arises while installtion through ![issues](https://github.com/hellovikram/pepipost-php/issues) or ![pull requests](https://github.com/hellovikram/pepipost-php/pulls).
 
-1. ![Install Xampp](https://www.apachefriends.org/download.html)
+1. Install Xampp (https://www.apachefriends.org/download.html)
 
-2. ![Install composer](https://getcomposer.org/doc/00-intro.md#installation-windows)
+2. Install composer (https://getcomposer.org/doc/00-intro.md#installation-windows)
 ![imgcomposer](http://app1.falconide.com/integration_imgs/windows_without_IDE/1.png)
 
   Step a :: As soon as you download composer.exe file from the above link pop will appear below
@@ -67,7 +67,7 @@ We are trying to help you with the simpliest way of installation we can let us k
 
  ![composer](http://app1.falconide.com/integration_imgs/windows_without_IDE/14.png)
 
-11. Download ![CURL](https://curl.haxx.se/docs/caextract.html) for windows
+11. Download CURL (https://curl.haxx.se/docs/caextract.html) for windows
 
     move **.pem** from downloads directory to the unzipped SDK folder.
   
@@ -83,5 +83,15 @@ We are trying to help you with the simpliest way of installation we can let us k
  
   ![PEm file](http://app1.falconide.com/integration_imgs/windows_without_IDE/18.png)
   
- 14. 
+ 14. Make a Sample file named **test.php** in the unzipped directory as shown below
+ 
+  ![testfile](http://app1.falconide.com/integration_imgs/windows_without_IDE/20.png)
+  
+ 15. Open file with notepad (for simpliest debugging would like to recommend :: notepad++ (https://notepad-plus-plus.org/download/v7.5.8.html))
+   
+ 16. Copy Simple Usage example from ![simpleUsage.php]()
+ 
+    
+    
+ 
   
