@@ -1,4 +1,6 @@
 ## Official PHP Client for [Pepipost](https://pepipost.com)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=popout)](https://twitter.com/pepi_post)
+[![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
 
  This SDK contain methods for easily interacting with the Pepipost Email Sending API
  
