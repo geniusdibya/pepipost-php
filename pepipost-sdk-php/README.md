@@ -2,7 +2,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=popout)](https://twitter.com/pepi_post)
 [![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/symfony/symfony.svg?style=flat-square)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
-[![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
+[![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg)](https://packagist.org/packages/pepipost/pepipost-sdk-php/stats)
 
  This SDK contain methods for easily interacting with the Pepipost Email Sending API
  
