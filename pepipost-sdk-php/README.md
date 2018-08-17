@@ -1,6 +1,7 @@
 ## Official PHP Client for [Pepipost](https://pepipost.com)
 
  This SDK contain methods for easily interacting with the Pepipost Email Sending API
+ 
  Which will help you in integrating our Service within Seconds. 
  
  We are trying to make Our SDKs Community Driven.To help us building right things in proper order we would request you to help us by just create ![issues](https://github.com/hellovikram/pepipost-php/issues) and ![pull request](https://github.com/hellovikram/pepipost-php/pulls).
@@ -16,22 +17,22 @@ Inorder to make it Smooth we have Separated installation process with respective
 
 ## Download Basic Requirements for installation
 
-#### [PHP >=5.3.2](http://php.net/manual/en/install.php)
-#### [Composer](https://getcomposer.org/download/)
-#### CURL
+**1. [PHP >=5.3.2](http://php.net/manual/en/install.php)**
+**2. [Composer](https://getcomposer.org/download/)**
+**3. CURL**
 
 ## Building SDK 
 
-### 1. Open Command prompt/ terminal. 
-### 2. Change Directory to any new directory (Make directory test-- recommended).
-### 3. Download or Glone the Pepipost Repository to the new directory.
-### 4. Check php version using ```php -v```
-### 5. Check Composer version ```composer --version```
-### 6. Navigate to your directory where SDK is Downloaded/clone/extracted (using cd path\to\directory)
-### 7. Type ```composer install``` (this will install all the requirement needed to Run SDK -- vendor directory will be listed )
-### 8. Make file in same directory ```test.php```
-### 9. Copy and Paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file or [sampleExample] below of the Readme.md file in test.php
-### 10. Grab your apiKey and SendingDomain from panel 
+ 1. Open Command prompt/ terminal. 
+ 2. Change Directory to any new directory (Make directory test-- recommended).
+ 3. Download or Glone the Pepipost Repository to the new directory.
+ 4. Check php version using ```php -v```
+ 5. Check Composer version ```composer --version```
+ 6. Navigate to your directory where SDK is Downloaded/clone/extracted (using cd path\to\directory)
+ 7. Type ```composer install``` (this will install all the requirement needed to Run SDK -- vendor directory will be listed )
+ 8. Make file in same directory ```test.php```
+ 9. Copy and Paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file or [sampleExample] below of the Readme.md file in test.php
+ 10. Grab your apiKey and SendingDomain from panel 
   
   **apikey** will be available from **login to pepipost -> settings -> integration**
   
@@ -40,8 +41,10 @@ Inorder to make it Smooth we have Separated installation process with respective
   *note :: only Active Domains are allowed * 
 ```
 
-### 11. Make neccessary Changes in Script (apikey and Sending Domain -- mandatory changes).
+ 11. Make neccessary Changes in Script (apikey and Sending Domain -- mandatory changes).
+ 
  Change your ```$apiKey = 'api-XX-key-XX-here'``` to ```$apiKey = 'api-key-from-panel';```
+ 
  Similarly Change your Sending Domain from ```$body->from->fromEmail = 'admin@myfirsttest.com';``` to ```$body->from->fromEmail = 'admin@your-active-domain-from-panel';```
 
 
@@ -57,14 +60,13 @@ API client can be initialized as following.
   
 ```
 
+## Class Reference
 
-# Class Reference
-
-## <a name="list_of_controllers"></a>List of Controllers
+### <a name="list_of_controllers"></a>List of Controllers
 
 * [EmailController](#email_controller)
 
-## <a name="email_controller"></a>![Class: ](https://apidocs.io/img/class.png ".EmailController") EmailController
+### <a name="email_controller"></a>![Class: ](https://apidocs.io/img/class.png ".EmailController") EmailController
 
 ### Get singleton instance
 
@@ -96,6 +98,7 @@ function createSendEmail(
 
 
 ## Sample Usage
+
 ```php
 <?php
 require_once "vendor/autoload.php";
