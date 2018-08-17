@@ -1,31 +1,32 @@
-# SDK on windows without IDE
+# Steps to install Pepipost PHP Code Library on windows without IDE
 
-The Mentioned Steps below will help you in integrating Pepipost SDK with Windows Server which doesn't have any IDE
-Dedicated to Terminal Lovers who love to code on terminal.
+Dedicated to Terminal Lovers who ❤️ to code on terminal.
 
-Before starting we would request you to whitelist our domain ```api.pepipost.com``` with ```port 443/80```  
+Below steps will help you in integrating this PHP code library with Windows machine which doesn't have any IDE. 
 
-### Installation Step 
+> Optional Note: This library will be sending HTTP calls to Pepipost server and hence if you're running any firewalls then please whitelist the API base URL ```api.pepipost.com``` with ```port 443/80```
 
-This code has dependencies over external libraries like UniRest.
-Dependencies are listed in ```composer.json``` file that comes with SDK.
+### Installation Steps
 
-We are trying to help you with the simpliest way of installation we can let us know if problem arises while installtion through ![issues](https://github.com/hellovikram/pepipost-php/issues) or ![pull requests](https://github.com/hellovikram/pepipost-php/pulls).
+This code has dependencies over external libraries like UniRest. All dependencies are listed in the file ```composer.json```.
 
-1. Install Xampp (https://www.apachefriends.org/download.html)
+We are trying to cover each of the steps in this installation, which might make this doc a little lengther but the objective is to help you with the simpliest way of installation. 
 
-2. Install composer (https://getcomposer.org/doc/00-intro.md#installation-windows)
+While Pepipost is defintely leading this library, but we want this to be more community driven. Your help is needed to realize this goal and to make sure we are building the right things in the right order. We ask that you create ![issues](https://github.com/hellovikram/pepipost-php/issues) and ![pull requests](https://github.com/hellovikram/pepipost-php/pulls) or simply upvote or comment on existing issues or pull requests to keep everyone updated.
+
+We appreciate your continued support, thank you!
+
+Step 1. Install ![XAMPP](https://www.apachefriends.org/download.html)
+
+Step 2. Install ![COMPOSER](https://getcomposer.org/doc/00-intro.md#installation-windows)
 ![imgcomposer](http://app1.falconide.com/integration_imgs/windows_without_IDE/1.png)
-
-  Step a :: As soon as you download composer.exe file from the above link pop will appear below
-  
+  2.1. As soon as you download composer.exe file from the above link pop will appear below:
   ![installation](http://app1.falconide.com/integration_imgs/windows_without_IDE/2.png)
   
-  Step b :: Installation directory will be shown at the below
-  
+  2.2. Installation directory will be shown at the below:
   ![installation2](http://app1.falconide.com/integration_imgs/windows_without_IDE/3.png)
   
-  Step c :: Proxy Url if you want any, we don't want such for now so keeping blank
+  2.3. Proxy URL if you want any, we don't want such for now so keeping blank
   
   ![installation3](http://app1.falconide.com/integration_imgs/windows_without_IDE/4.png)
   
