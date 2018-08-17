@@ -41,7 +41,7 @@ Inorder to make it Smooth we have Separated installation process with respective
  
  8. Make file in same directory **```test.php```**
  
- 9. Copy and Paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file or [sampleExample] below of the Readme.md file in test.php
+ 9. Copy and Paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file or [sampleExample](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/README.md#sample-usage) below of the Readme.md file in test.php
  
  10. Grab your apiKey and SendingDomain from panel 
   
