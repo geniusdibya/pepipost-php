@@ -29,7 +29,7 @@ Inorder to make it Smooth we have Separated installation process with respective
  
  2. Change Directory to any new directory (Make directory test-- recommended).
  
- 3. Download or Glone the Pepipost Repository to the new directory.
+ 3. [Download or Clone](https://github.com/hellovikram/pepipost-php/archive/feature_x.zip) the Pepipost Repository to the new directory.
  
  4. Check php version using **```php -v```**
  
