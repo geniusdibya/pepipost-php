@@ -1,4 +1,4 @@
-## Official PHP Client for ![Pepipost](https://pepipost.com)
+## Official PHP Client for [Pepipost](https://pepipost.com)
 
  This SDK contain methods for easily interacting with the Pepipost Email Sending API
  Which will help you in integrating our Service within Seconds. 
