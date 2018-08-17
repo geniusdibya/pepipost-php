@@ -89,9 +89,48 @@ We are trying to help you with the simpliest way of installation we can let us k
   
  15. Open file with notepad (for simpliest debugging would like to recommend :: notepad++ (https://notepad-plus-plus.org/download/v7.5.8.html))
    
- 16. Copy Simple Usage example from ![simpleUsage.php]()
+ 16. Copy and paste Simple Usage example from ![simpleUsage.php](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.php) in **test.php**
  
-    
-    
- 
+ 17. Make changes in the file (replace/add your credentials available from panel) 
   
+   Step a :: Get **api_key** from Panel
+             replace line ```$apiKey = 'api-XX-key-XX-here'``` in SimpleUsage with ```$apiKey = 'api-key-from-panel refer the image below'``` 
+        
+   ![panel](http://app1.falconide.com/integration_imgs/windows_without_IDE/22.png)
+ 
+   ![api_key](http://app1.falconide.com/integration_imgs/windows_without_IDE/23.png)
+   
+   Step b :: Get **Sending Domain** from panel (should be verified/Active)
+             replace ```$body->from->fromEmail = 'admin@myfirsttest.com'``` with ```$body->from->fromEmail = 'admin@domain-from-panel-refer-image-below```
+             
+   ![domain](http://app1.falconide.com/integration_imgs/windows_without_IDE/31.png)
+    
+   ![sendingdomain](http://app1.falconide.com/integration_imgs/windows_without_IDE/30.png)
+ 
+ 18. Ready to Go..! 
+ 
+   Save you File and open CMD -> cd Path\to\Unzipped\directory
+   
+   Check Syntax by **C:\xampp\php\php.exe -l Path\to\Unzipped\directory\test.php**
+   
+   **Syntax ok** will be prompted if everything is correct in your test.php file
+   
+   Send your first mail now with **C:\xampp\php\php.exe Path\to\Unzipped\directory\test.php**
+   
+   ![success](http://app1.falconide.com/integration_imgs/windows_without_IDE/26.png)
+   
+ 19.Check your Email Inbox (please **mark as not spam** if it is found in spam)
+ 
+   ![check1](http://app1.falconide.com/integration_imgs/windows_without_IDE/27.png)
+   
+   ![check2](http://app1.falconide.com/integration_imgs/windows_without_IDE/28.png)
+   
+   
+ 20. Success :: You have Successfully Integrated Pepipost :smiley: . 
+ 
+
+   
+   
+   
+ 
+    
