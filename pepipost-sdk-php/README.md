@@ -13,6 +13,7 @@ We are trying to make our libraries a Community Driven. To help us building righ
 
 ## Table of Contents
 * [Installation](#installation)
+* [Quick Start](#quickstart)
 * [Announcements](#announcements)
 * [Roadmap](#roadmap)
 * [About](#about)
@@ -27,16 +28,22 @@ Inorder to make it Smooth we have Separated installation process with respective
 2. [Build SDK on Windows/Linux with IDE.](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/windows-installation-2.md)
 3. [Build SDK on Linux.](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/linux-installation.md)
 
+### Prerequisites
+* 1. [PHP >=5.3.2](http://php.net/manual/en/install.php)
+* 2. [Composer](https://getcomposer.org/download/)
+* 3. [CURL](https://curl.haxx.se/)
+* 4. A free account on Pepipost. If you don't have a one, click [here](https://app.pepipost.com/index.php/signup/registeruser?utm_campaign=GitHubSDK&utm_medium=GithubSDK&utm_source=GithubSDK) to signup and get 30,000 emails free every month.
 
-## Download Basic Requirements for installation
+### Setup Global Variables
 
-**1. [PHP >=5.3.2](http://php.net/manual/en/install.php)**
+Setup the [PEPIPOST API KEY](https://app.pepipost.com/app/settings/integration) in the library to start sending emails. For example:
 
-**2. [Composer](https://getcomposer.org/download/)**
+1. Copy the API KEY from your Pepipost account by navigating to Settings --> Integrations.
+2. Edit the sample code and replace `PEPIPOST_API_KEY` which the one you just copied.
+3. Now the library is ready to authenticate with Pepipost servers for sending emails.
 
-**3. CURL**
-
-## Building SDK 
+<a name="quickstart"></a>
+## Quick Start 
 
  1. Open Command prompt/ terminal. 
  
