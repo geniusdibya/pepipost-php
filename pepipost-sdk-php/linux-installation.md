@@ -18,7 +18,7 @@ Below Steps will Guide you Step by Step, So that your installation is completed 
 
   2. Change Directory to any new directory (Make directory test-- recommended).
 
-  3. Check PHP version (should be >= 5.4.0)
+  3. Check PHP version (should be >= 5.3.2)
      
      ```php -v```
      
@@ -53,8 +53,8 @@ Below Steps will Guide you Step by Step, So that your installation is completed 
         Download [Zip here](https://github.com/pepipost/pepipost-sdk-php/archive/master.zip)
        
         unzip in your new directory named **test** (mentioned in point no 2).
-   
-    6. Resolving Dependencies 
+
+   6. Resolving Dependencies 
     
         Change your Directory to **test** (unzipped or cloned directory).
     
@@ -62,11 +62,11 @@ Below Steps will Guide you Step by Step, So that your installation is completed 
    
         ![composerinstall](http://app1.falconide.com/integration_imgs/linux/l4.png)
 
-    7. Running Sample Code.
+   7. Running Sample Code.
     
-Make File testSDK.php (open in any editor).
+        Make File testSDK.php (open in any editor).
     
-Copy and paste Sample Code from [simpleUsage](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file
+        Copy and paste Sample Code from [simpleUsage](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file
     
    8. Grab your apiKey and SendingDomain from panel
 
@@ -79,7 +79,7 @@ Copy and paste Sample Code from [simpleUsage](https://github.com/hellovikram/pep
       Make neccessary Changes in Script (apikey and Sending Domain -- mandatory changes).
      Change your $apiKey = 'api-XX-key-XX-here' to $apiKey = 'api-key-from-panel';
 
-      Similarly Change your Sending Domain from $body->from->fromEmail = 'admin@myfirsttest.com'; to $body->from->fromEmail = 'admin@your-active-domain-from-panel';
+   Similarly Change your Sending Domain from $body->from->fromEmail = 'admin@myfirsttest.com'; to $body->from->fromEmail = 'admin@your-active-domain-from-panel';
     
 9. Send Your First email using SDK
     
