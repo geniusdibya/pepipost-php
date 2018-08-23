@@ -43,93 +43,49 @@ Setup the [PEPIPOST API KEY](https://app.pepipost.com/app/settings/integration) 
 3. Now the library is ready to authenticate with Pepipost servers for sending emails.
 
 <a name="quickstart"></a>
-## Quick Start 
+## Quick Start
 
- 1. Open Command prompt/ terminal. 
+Developers already familar with GIT, Composer and some of the other handy tools can just refer the below steps to quick start with the integration. 
+
+> If you are not sure of how to integrate this library within your environment, then please refer to our detailed [installation](#installation) guide above.
+
+ 1. Open Command prompt/Terminal.
  
- 2. Change Directory to any new directory (Make directory test-- recommended).
+ 2. Change directory to any new directory (Make directory test-- recommended).
  
- 3. [Download or Clone](https://github.com/hellovikram/pepipost-php/archive/feature_x.zip) the Pepipost Repository to the new directory.
+ 3. [Download or Clone](https://github.com/hellovikram/pepipost-php/archive/feature_x.zip) the Pepipost Repository to the new directory and extract.
  
  4. Check php version using **```php -v```**
  
  5. Check Composer version **```composer --version```**
  
- 6. Navigate to your directory where SDK is Downloaded/clone/extracted (using cd path\to\directory)
+ 6. Navigate to your directory where the pepipost-php library is extracted (using cd path\to\directory)
  
- 7. Type **```composer install```** (this will install all the requirement needed to Run SDK -- vendor directory will be listed )
+ 7. Type **```composer install```** (this will install all the requirement needed to run this library -- Note: After installing, a vendor directory will get auto-created)
  
- 8. Make file in same directory **```test.php```**
+ 8. Create a new test file in same directory **```test.php```**
  
- 9. Copy and Paste the [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) file or [sampleExample](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/README.md#sample-usage) below of the Readme.md file in test.php
- 
- 10. Grab your apiKey and SendingDomain from panel 
+ 9. Copy the code from [simpleUsage.md](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/simpleUsage.md) or [sampleExample](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/README.md#sample-usage) and paste in test.php.
   
-  **```apikey```** will be available from **```login to pepipost -> settings -> integration```**
+ 10. Get your API key and Sending Domain from your Pepipost account. 
   
-  **```Sending Domain```** will be available from **```login to pepiost -> settings -> Sending Domains ```**
-
-```
-  *note :: only Active Domains are allowed * 
-```
-
- 11. Make neccessary Changes in Script (apikey and Sending Domain -- mandatory changes).
- 
- Change your **```$apiKey = 'api-XX-key-XX-here'```** to **```$apiKey = 'api-key-from-panel';```**
- 
- Similarly Change your Sending Domain from **```$body->from->fromEmail = 'admin@myfirsttest.com';```** to **```$body->from->fromEmail = 'admin@your-active-domain-from-panel';```**
-
-
-## Initialization
-
-### How to initialize Pepipost Api Client
-
-API client can be initialized as following.
-
-```php
-
-  $client = new PepipostAPILib\PepipostAPIClient();
+  **```apikey```** will be available under **```Login to Pepipost -> Settings -> Integration```**
   
+  **```Sending Domain```** will be available under **```Login to Pepiost -> Settings -> Sending Domains ```**
+
+```
+  *Note :: Domains showing wiht Active status on Sending Domain dashboard are only allowed to send any sort of emails.* In case there are no Sending Domain added under your account, then first add the domain, get the DNS (SPF/DKIM) settings done and get it reviewed by our compliance team for approval. Once the domain is approved, it will be in ACTIVE status and will be ready to send any sort of emails. 
 ```
 
-## Class Reference
+ 11. Make the required changes in your script test.php (Adding the apikey and Sending Domain is mandatory).
+ 
+ Change your **```$apiKey = 'api-XX-key-XX-here'```** to **```$apiKey = 'api-key-of-your-pepipost-account';```**
+ 
+ Similarly, update your Sending Domain from **```$body->from->fromEmail = 'admin@myfirsttest.com';```** to **```$body->from->fromEmail = 'admin@your-active-domain-on-pepipost';```**
 
-### <a name="list_of_controllers"></a>List of Controllers
+12. Update the rest of the email related payload like Recipent email address, content of the email etc. Below is the sample code with details of payload:
 
-* [EmailController](#email_controller)
-
-### <a name="email_controller"></a>![Class: ](https://apidocs.io/img/class.png ".EmailController") EmailController
-
-### Get singleton instance
-
-The singleton instance of the ``` EmailController ``` class can be accessed from the API Client.
-
-```php
-$email = $client->getEmail();
-```
-
-### <a name="create_send_email"></a>![Method: ](https://apidocs.io/img/method.png ".EmailController.createSendEmail") createSendEmail
-
-> *Tags:*  ``` Skips Authentication ``` 
-
-> This Endpoint sends emails with the credentials passed.
-
-
-```php
-function createSendEmail(
-        $apiKey = null,
-        $body = null)
-```
-
-#### Parameters
-
-| Parameter | Tags | Description |
-|-----------|------|-------------|
-| apiKey |  ``` Optional ```  | Generated header parameter. Example value ='5ce7096ed4bf2b39dfa932ff5fa84ed9ed8' |
-| body |  ``` Optional ```  | The body passed will be json format. |
-
-
-## Sample Usage
+## Sample Code for test.php
 
 ```php
 <?php
@@ -167,8 +123,11 @@ print_r(json_encode($response));
 ?>
 ```
 
+| Parameter | Tags | Description |
+|-----------|------|-------------|
+| apiKey |  ``` Optional ```  | This is a unique string for authentication. Example '523326ed4sadasb39dfa932ff5fa84ed9ed8' |
+| body |  ``` Optional ```  | The body passed will be json format. |
 
-[Back to List of Controllers](#list_of_controllers)
 
 <a name="announcements"></a>
 # Announcements
