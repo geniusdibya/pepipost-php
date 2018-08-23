@@ -29,7 +29,7 @@ Inorder to make it Smooth we have Separated installation process with respective
 3. [Build SDK on Linux.](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/linux-installation.md)
 
 ### Prerequisites
-* 1. [PHP >=5.3.2](http://php.net/manual/en/install.php)
+* 1. [PHP >=5.4.0](http://php.net/manual/en/install.php)
 * 2. [Composer](https://getcomposer.org/download/)
 * 3. [CURL](https://curl.haxx.se/)
 * 4. A free account on Pepipost. If you don't have a one, click [here](https://app.pepipost.com/index.php/signup/registeruser?utm_campaign=GitHubSDK&utm_medium=GithubSDK&utm_source=GithubSDK) to signup and get 30,000 emails free every month.
