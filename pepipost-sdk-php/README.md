@@ -125,7 +125,7 @@ print_r(json_encode($response));
 
 | Parameter | Tags | Description |
 |-----------|------|-------------|
-| apiKey |  ``` Optional ```  | This is a unique string for authentication. Example '523326ed4sadasb39dfa932ff5fa84ed9ed8' |
+| apiKey |  ``` Mandatory ```  | This is a unique string for authentication. Example '523326ed4sadasb39dfa932ff5fa84ed9ed8' |
 | body |  ``` Optional ```  | The body passed will be json format. |
 
 
