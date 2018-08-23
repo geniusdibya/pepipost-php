@@ -8,7 +8,7 @@ Before starting we would request you to whitelist our domain ```api.pepipost.com
 
 ### Installation Steps
 
-1 .Please Follow first 3 Steps of installation same as ![Windows without IDE](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/windows-Installation-1.md#installation-step)  
+1 .Please Follow first 3 Steps of installation same as [Windows without IDE](https://github.com/hellovikram/pepipost-php/blob/feature_x/pepipost-sdk-php/windows-Installation-1.md#installation-step)  
 
 2. Install any IDE you Love to work with.
 
