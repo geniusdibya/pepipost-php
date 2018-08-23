@@ -1,4 +1,4 @@
-## ![pepipostlogo](https://pepipost.com/assets/img/pepipost.png) Official PHP Client for [Pepipost](https://pepipost.com)
+![pepipostlogo](https://pepipost.com/assets/img/pepipost-footLogo.png)
 
 [![Packagist](https://img.shields.io/packagist/php-v/pepipost/pepipost-sdk-php.svg?style=flat-square)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
 [![Packagist](https://img.shields.io/packagist/dt/pepipost/pepipost-sdk-php.svg?style=flat-square)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
@@ -6,12 +6,10 @@
 [![Packagist](https://img.shields.io/packagist/l/pepipost/pepipost-sdk-php.svg)](https://packagist.org/packages/pepipost/pepipost-sdk-php)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pepi_post.svg?style=social&label=Follow)](https://twitter.com/pepi_post)
 
-
- This SDK contain methods for easily interacting with the Pepipost Email Sending API
+## Official PHP Code library for [Pepipost](http://www.pepipost.com/?utm_campaign=GitHubSDK&utm_medium=GithubSDK&utm_source=GithubSDK)
+This SDK contain methods for easily interacting with the Pepipost Email Sending API to send emails within few seconds.
  
- Which will help you in integrating our Service within Seconds. 
- 
- We are trying to make Our SDKs Community Driven.To help us building right things in proper order we would request you to help us by just create [issues](https://github.com/hellovikram/pepipost-php/issues) and [pull request](https://github.com/hellovikram/pepipost-php/pulls).
+We are trying to make our libraries a Community Driven. To help us building right things in proper order we would request you to help us by sharing comments, creating new [issues](https://github.com/hellovikram/pepipost-php/issues) or [pull request](https://github.com/hellovikram/pepipost-php/pulls).
 
 ## Installing SDK (OS Friendly)
 
