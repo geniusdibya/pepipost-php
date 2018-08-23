@@ -11,7 +11,7 @@
  
  Which will help you in integrating our Service within Seconds. 
  
- We are trying to make Our SDKs Community Driven.To help us building right things in proper order we would request you to help us by just create ![issues](https://github.com/hellovikram/pepipost-php/issues) and ![pull request](https://github.com/hellovikram/pepipost-php/pulls).
+ We are trying to make Our SDKs Community Driven.To help us building right things in proper order we would request you to help us by just create [issues](https://github.com/hellovikram/pepipost-php/issues) and [pull request](https://github.com/hellovikram/pepipost-php/pulls).
 
 ## Installing SDK (OS Friendly)
 
