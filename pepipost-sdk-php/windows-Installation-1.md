@@ -16,9 +16,9 @@ While Pepipost is defintely leading this library, but we want this to be more co
 
 We appreciate your continued support, thank you!
 
-Step 1. Install ![XAMPP](https://www.apachefriends.org/download.html)
+Step 1. Install [XAMPP](https://www.apachefriends.org/download.html)
 
-Step 2. Install ![COMPOSER](https://getcomposer.org/doc/00-intro.md#installation-windows)
+Step 2. Install [COMPOSER](https://getcomposer.org/doc/00-intro.md#installation-windows)
 ![imgcomposer](http://app1.falconide.com/integration_imgs/windows_without_IDE/1.png)
   2.1. As soon as you download composer.exe file from the above link pop will appear below:
   ![installation](http://app1.falconide.com/integration_imgs/windows_without_IDE/2.png)
