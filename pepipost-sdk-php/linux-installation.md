@@ -18,7 +18,7 @@ Below Steps will Guide you Step by Step, So that your installation is completed 
 
   2. Change Directory to any new directory (Make directory test-- recommended).
 
-  3. Check PHP version (should be >= 5.3.2)
+  3. Check PHP version (should be >= 5.4.0)
      
      ```php -v```
      
